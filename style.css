@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    font-family: Cabin;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo{
+    background-image: url("assets/logo.png");
+    height: 50px;
+    width: 135px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 2.1px solid white;
+}
+
+
+.nav-address{
+    display: flex;
+    align-items:center;
+}
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 10px;
+}
+
+.add-sec{
+    margin-left: 3px;
+
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.Returns{
+    font-size: 0.85rem;
+}
+
+
+
+.Panel{
+    height: 60px;
+    background-color: #232f3e;
+    height: 45px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.heropage{
+    background-image: url("assets/background\ picture.png");
+}
+
+
+
